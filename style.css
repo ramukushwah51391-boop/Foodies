@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    text-align: center;
+     
+    padding: 15px;
+    height: 70px;
+
+}
+.logo{
+    color:  #ff541c;
+    font-size: 35px;
+    font-weight: 40px;
+}
+nav{
+    display: flex;
+    padding-top: 15px;
+     gap: 25px;
+     
+}
+nav a{
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button{
+    width: 120px;
+    height: 45px;
+    color: aliceblue;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    background:#ff541c;
+
+}
+.button:hover{
+     background-color: pink;
+    border:2px solid palevioletred
+}
+.pup{
+    display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 25px;
+      font-weight: 900;
+
+}
+ .dis{
+    display: flex;
+      justify-content: center;
+      font-size: 12px;
+      margin-top: 2px;
+
+}
+ .hero{
+    position: relative;
+    width: 100%;
+}
+.hero-img{
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+ .ex{
+    position: absolute;
+    top: 250px;
+    left: 290px;
+    transform: translate(-50%, -50%);
+    padding: 12px 45px;
+    background-color: #ff541c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.img2{
+     margin-left: 150px;
+}
+ .hero1{
+    position: relative;
+    width: 100%;
+}
+ .hero1-img{
+    margin-top: 20px;
+    margin-left: 0;
+    width: 1344px;
+    height: 250px;
+    display: block;
+}
+ .lrn{
+    position: absolute;
+    top: 206px;
+    left: 215px;
+    transform: translate(-50%, -50%);
+    padding: 13px 41px;
+    background-color: #ff541c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer{
+    height: 200px;
+    background-color:rgba(105, 36, 161, 0.137);
+}
+.text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-top: -4px;
+     padding-top: 15px;
+     gap: 5px;
+}
+.A{
+    font-weight: bold;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: -5px;
+    padding-left: 6px;
+    padding-bottom: 4px;
+}
+
+ 
